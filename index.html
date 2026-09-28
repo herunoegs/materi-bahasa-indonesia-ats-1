@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bahasa Indonesia - ATS I</title>
+    <meta
+      name="description"
+      content="Aplikasi materi Bahasa Indonesia untuk Asesmen Tengah Semester I 2026/2027"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">Bahasa Indonesia</div>
+        <nav>
+          <a href="#materi">Materi</a>
+          <a href="#latihan">Latihan</a>
+          <a href="#rangkuman">Rangkuman</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <p class="eyebrow">Asesmen Tengah Semester I</p>
+            <h1>Belajar Bahasa Indonesia dengan Mudah</h1>
+            <p class="lead">
+              Materi lengkap, ringkas, dan latihan soal interaktif untuk persiapan
+              ujian semester.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#materi">Lihat Materi</a>
+              <a class="btn secondary" href="#latihan">Kerjakan Soal</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <p class="mini-title">Tahun Pelajaran</p>
+            <h2>2026/2027</h2>
+            <ul>
+              <li>✓ Cerita & pemahaman isi</li>
+              <li>✓ Kalimat transitif & intransitif</li>
+              <li>✓ Awalan me- dan ber-</li>
+              <li>✓ Kalimat majemuk setara</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="materi" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Materi inti</p>
+            <h2>Ringkasan Pelajaran</h2>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <h3>1. Memahami isi cerita</h3>
+              <p>
+                Cerita terdiri dari tokoh, latar, alur, tema, amanat, dan watak.
+                Untuk memahami isi cerita, kita perlu membaca secara cermat dan
+                menafsirkan kejadian penting.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>2. Membaca kalimat panjang</h3>
+              <p>
+                Ucapkan kalimat dengan suara jelas, intonasi benar, dan jeda yang
+                tepat sesuai tanda baca.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>3. Kalimat transitif dan intransitif</h3>
+              <p>
+                Kalimat transitif memerlukan objek, seperti <strong>Ibu memasak nasi</strong>.
+                Kalimat intransitif tidak memerlukan objek, seperti <strong>Adik tidur</strong>.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>4. Mencari kata di kamus</h3>
+              <p>
+                Carilah kata berdasarkan urutan abjad. Jika kata berimbuhan,
+                biasanya kita mencari kata dasarnya terlebih dahulu.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>5. Awalan me-</h3>
+              <p>
+                Awalan <strong>me-</strong> membentuk kata kerja, misalnya:
+                membaca, menulis, menyapu, mengirim, dan menggambar.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>6. Menyampaikan pendapat</h3>
+              <p>
+                Pendapat disampaikan dengan kalimat yang jelas, sopan, dan
+                didukung alasan. Contoh: <strong>Menurut saya, kegiatan kerja bakti sangat bermanfaat.</strong>
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>7. Kalimat majemuk setara</h3>
+              <p>
+                Kalimat majemuk setara terdiri dari dua kalimat yang memiliki
+                kedudukan sama. Kata penghubung yang umum dipakai adalah dan, tetapi, atau, lalu, dan sedangkan.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>8. Awalan ber-</h3>
+              <p>
+                Awalan <strong>ber-</strong> dapat berarti melakukan kegiatan,
+                mempunyai, memakai, atau mengendarai sesuatu, seperti berlari,
+                bersepatu, dan berkuda.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>9. Paragraf deskripsi</h3>
+              <p>
+                Paragraf deskripsi menggambarkan suatu objek secara rinci agar
+                pembaca seolah-olah melihat atau merasakannya.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>10. Teks petunjuk arah</h3>
+              <p>
+                Petunjuk arah membantu kita menuju suatu tempat. Perhatikan arah,
+                tempat awal, dan urutan petunjuknya.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="latihan" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Latihan interaktif</p>
+            <h2>Uji Pemahamanmu</h2>
+          </div>
+
+          <div class="quiz-box">
+            <div id="quiz"></div>
+            <div class="quiz-actions">
+              <button id="prevBtn" class="btn secondary">Sebelumnya</button>
+              <button id="nextBtn" class="btn primary">Selanjutnya</button>
+            </div>
+            <div id="scoreBox" class="score-box hidden"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rangkuman" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Rangkuman</p>
+            <h2>Inti Pelajaran</h2>
+          </div>
+
+          <div class="summary-box">
+            <ul>
+              <li>Tokoh adalah pelaku cerita dan amanat adalah pesan yang ingin disampaikan.</li>
+              <li>Kalimat transitif membutuhkan objek; kalimat intransitif tidak perlu objek.</li>
+              <li>Awalan <strong>me-</strong> membentuk kata kerja, contohnya membaca, menulis, dan menyapu.</li>
+              <li>Awalan <strong>ber-</strong> sering dipakai pada kata kerja seperti berlari, belajar, dan bekerja.</li>
+              <li>Paragraf deskripsi menggambarkan benda, tempat, atau orang dengan rinci.</li>
+              <li>Kalimat majemuk setara menggabungkan dua kalimat yang setara dengan kata hubung.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 Bahasa Indonesia - Asesmen Tengah Semester I</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
